@@ -497,3 +497,5 @@ yuweuii
 yxjsxy
 zijiess
 clawtributors:hidden:end -->
+
+- Documentation updated for clarity
