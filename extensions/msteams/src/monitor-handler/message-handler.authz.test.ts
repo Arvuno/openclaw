@@ -452,7 +452,7 @@ describe("msteams monitor handler authz", () => {
   // Regression coverage for #58774: proactive sends fail with HTTP 403 when
   // inbound code drops tenantId/aadObjectId. Capture must prefer the canonical
   // `channelData.tenant.id` source and expose top-level fields on the stored ref.
-  it("captures tenantId from channelData.tenant.id and aadObjectId from from (#58774)", async () => {
+  it("captures tenantId from channelData.tenant.id and aadObjectId (#58774)", async () => {
     const { conversationStore, deps } = createDeps({
       channels: {
         msteams: {
